@@ -1,0 +1,109 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topo{
+    background-color: #1A242E;
+    width: 100%;
+    height: 80px;
+}
+.content {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+}
+.menu{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 125px;
+    margin-top: 20px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.login img{
+    width: 26px;
+}
+.login a{
+    padding: 0 10px;
+    font-family: Arial,sans-serif;
+    text-decoration: none;
+    color: white;
+}
+main{
+    
+}
+.centro{
+    width: 100%;
+    height: 650px;
+    background-image: url("../img/centro.png");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 6em;
+}
+.textos{
+    width: 45%;
+    font-size: 23px;
+}
+.centro h1{
+    font-family: Arial,sans-serif;
+    color: white;
+    margin-bottom: 1em;
+}
+.centro p{
+    font-family: Arial,sans-serif;
+    color: white;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding-top: 2em;   
+
+}
+.bottom a{
+    text-decoration: none;
+    background-color: #0F79AF;
+    width: 340px;
+    height: 76px;
+    font-family: Arial,sans-serif;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.linha{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Arial,sans-serif;
+    
+
+}
+.bottom hr{
+    color: white;
+    width: 147px;
+    height: 0;
+}
+.linha p{
+    margin: 10px;
+}
+.finaldotexto{
+    display: flex;
+    margin-top: 60px;
+    width: 1000px;
+    font-size: 16px;
+}
